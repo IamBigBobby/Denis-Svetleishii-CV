@@ -22,16 +22,17 @@ h2 {
     color: yellow; }
 
 .main {
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  height: 100%;
+  align-items: stretch;
   font-family: "Ubuntu", sans-serif;
-  color: white; }
+  color: white;
+  border: 1px solid red; }
 
 .about-me {
   padding: 0px 20px 0px 20px;
-  width: 40%;
-  height: 100%;
+  flex-basis: 30%;
   background-color: #7171b3; }
 
 .my-photo {
