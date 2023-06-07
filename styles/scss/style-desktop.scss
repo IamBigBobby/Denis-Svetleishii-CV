@@ -1,5 +1,14 @@
 @import 'variables';
 
+// general
+h2{
+  padding-left: 10px;
+
+  font-family: $mainFont;
+
+  border-left: 10px solid $yellow;
+}
+
 // header
 .navigation{
   background-color: $blue;
@@ -32,9 +41,14 @@
   display: flex;
   flex-wrap: wrap;
   height: 100%;
+
+  font-family: $mainFont;
+  color: white;
 }
 
 .about-me{
+  padding: 0px 20px 0px 20px;
+
   width: 40%;
   height: 100%;
   background-color: $blueLight;
