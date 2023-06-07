@@ -16,4 +16,20 @@
   .navigation-list a:hover {
     color: yellow; }
 
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%; }
+
+.about-me {
+  width: 40%;
+  height: 100%;
+  background-color: #7171b3; }
+
+.my-photo {
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+  display: block;
+  border-radius: 50%; }
+
 /*# sourceMappingURL=style.css.map */
