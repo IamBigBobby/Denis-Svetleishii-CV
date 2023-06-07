@@ -1,7 +1,19 @@
+.navigation {
+  background-color: #5a5ac5; }
+
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0px;
+  padding: 20px;
   list-style-type: none; }
+  .navigation-list a {
+    text-decoration: none;
+    color: #f1ebeb;
+    font-family: "Ubuntu", sans-serif;
+    transition: 1s; }
+  .navigation-list a:hover {
+    color: yellow; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AACA,gBAAgB;EACd,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;EAC7B,eAAe,EAAE,IAAI",
-"sources": ["../scss/style-desktop.scss"],
+"mappings": "AAGA,WAAW;EACT,gBAAgB,ECHX,OAAgB;;ADKvB,gBAAgB;EACd,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;EAE7B,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,IAAI;EAEb,eAAe,EAAE,IAAI;EAErB,kBAAC;IACC,eAAe,EAAE,IAAI;IACrB,KAAK,EChBD,OAAkB;IDiBtB,WAAW,ECbJ,oBAAoB;IDe3B,UAAU,ECZG,EAAE;EDejB,wBAAO;IACL,KAAK,ECtBA,MAAgB",
+"sources": ["../scss/style-desktop.scss","../scss/variables.scss"],
 "names": [],
 "file": "style.css"
 }

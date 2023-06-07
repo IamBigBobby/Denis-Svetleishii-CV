@@ -1,7 +1,28 @@
+@import 'variables';
+
 // header
+.navigation{
+  background-color: $blue;
+}
 .navigation-list{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  margin: 0px;
+  padding: 20px;
+
   list-style-type: none;
+
+  a{
+    text-decoration: none;
+    color: $white;
+    font-family: $mainFont;
+
+    transition: $speedAnimation;
+  }
+
+  a:hover{
+    color: $yellow;
+  }
 }
