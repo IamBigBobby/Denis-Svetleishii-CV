@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AACA,gBAAgB;EACd,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;EAC7B,eAAe,EAAE,IAAI",
-"sources": ["style-desktop.scss"],
+"sources": ["../scss/style-desktop.scss"],
 "names": [],
 "file": "style.css"
 }
