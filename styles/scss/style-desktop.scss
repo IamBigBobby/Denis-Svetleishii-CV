@@ -1,6 +1,10 @@
 @import 'variables';
 
 // general
+h1{
+  font-size: 200px;
+}
+
 h2{
   padding-left: 10px;
 
@@ -8,6 +12,7 @@ h2{
 
   border-left: 10px solid $yellow;
 }
+// end general
 
 // header
 .navigation{
@@ -35,6 +40,7 @@ h2{
     color: $yellow;
   }
 }
+// end header
 
 // main content
 .main{
@@ -47,9 +53,9 @@ h2{
   font-family: $mainFont;
   color: white;
 
-  border: 1px solid red;
 }
 
+// about me
 .about-me{
   padding: 0px 20px 0px 20px;
 
@@ -66,3 +72,14 @@ h2{
 
   border-radius: 50%;
 }
+
+// my skills
+.my-skills{
+  color: black;
+}
+
+.main-information{
+  padding-top: 150px;
+  padding-left: 50px;
+}
+// end main content
