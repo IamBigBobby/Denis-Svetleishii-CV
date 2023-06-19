@@ -64,4 +64,7 @@ h2 {
   .my-skills div {
     padding-bottom: 50px; }
 
+code {
+  white-space: pre-wrap; }
+
 /*# sourceMappingURL=style.css.map */
