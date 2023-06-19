@@ -49,6 +49,8 @@ h2 {
 .my-skills {
   padding: 0px 20px 0px 50px;
   color: black; }
+  .my-skills div {
+    padding-bottom: 50px; }
 
 .main-information {
   padding-top: 150px;
