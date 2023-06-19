@@ -15,6 +15,7 @@ h2{
 .navigation{
   background-color: $blue;
 }
+
 .navigation-list{
   display: flex;
   flex-wrap: wrap;
@@ -58,6 +59,16 @@ h2{
   color: white;
 }
 
+.photo-and-name{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-information{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 // education
   .education-img{
     width: 300px;
@@ -75,7 +86,7 @@ h2{
 }
 
 .my-photo{
-  margin: 0 auto;
+  // margin: 0 auto;
   padding: 20px 0px 20px 0px;
 
   display: block;
@@ -98,10 +109,5 @@ h2{
   p{
     border: 1px solid red;
   }
-}
-
-.main-information{
-  padding-top: 150px;
-  padding-bottom: 150px;
 }
 // end main content

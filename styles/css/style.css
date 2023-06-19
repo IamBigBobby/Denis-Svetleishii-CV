@@ -34,6 +34,14 @@ h2 {
   font-family: "Ubuntu", sans-serif;
   color: white; }
 
+.photo-and-name {
+  display: flex;
+  flex-direction: row; }
+
+.main-information {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
 .education-img {
   width: 300px;
   height: 200px;
@@ -45,7 +53,6 @@ h2 {
   background-color: #7171b3; }
 
 .my-photo {
-  margin: 0 auto;
   padding: 20px 0px 20px 0px;
   display: block;
   border-radius: 50%; }
@@ -58,9 +65,5 @@ h2 {
     padding-bottom: 50px; }
   .my-skills p {
     border: 1px solid red; }
-
-.main-information {
-  padding-top: 150px;
-  padding-bottom: 150px; }
 
 /*# sourceMappingURL=style.css.map */
