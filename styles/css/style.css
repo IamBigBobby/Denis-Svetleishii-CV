@@ -29,6 +29,12 @@ h2 {
   font-family: "Ubuntu", sans-serif;
   color: white; }
 
+.education-img {
+  width: 300px;
+  height: 200px;
+  background-image: url("/assets/jpg/stage0.jpg");
+  background-size: cover; }
+
 .face-information {
   padding: 0px 20px 0px 20px;
   flex-basis: 30%;
