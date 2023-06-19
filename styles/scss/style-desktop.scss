@@ -50,8 +50,6 @@ h2{
 
   display: flex;
   flex-direction: column;
-  
-  border: 1px solid red;
 
   max-width: 1080px;
 
@@ -65,7 +63,7 @@ h2{
 }
 
 .main-information{
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 150px;
   padding-left: 40px;
 }
@@ -101,14 +99,8 @@ h2{
 
   color: black;
 
-  border: 1px solid green;
-
   div{
     padding-bottom: 50px;
-  }
-
-  p{
-    border: 1px solid red;
   }
 }
 // end main content
