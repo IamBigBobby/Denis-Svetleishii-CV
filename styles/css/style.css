@@ -31,7 +31,8 @@ h2 {
   flex-direction: column;
   max-width: 1080px;
   font-family: "Ubuntu", sans-serif;
-  color: white; }
+  color: white;
+  background-color: #f1ebeb; }
 
 .photo-and-name {
   display: flex;
@@ -49,7 +50,7 @@ h2 {
   background-size: cover; }
 
 .face-information {
-  padding: 10px 20px 10px 50px;
+  padding: 20px 20px 20px 50px;
   background-color: #7171b3; }
 
 .my-photo {
@@ -58,7 +59,7 @@ h2 {
   border-radius: 50%; }
 
 .my-skills {
-  padding: 10px 20px 10px 50px;
+  padding: 20px 20px 20px 50px;
   color: black; }
   .my-skills div {
     padding-bottom: 50px; }

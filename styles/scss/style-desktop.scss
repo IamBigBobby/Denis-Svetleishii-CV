@@ -55,6 +55,8 @@ h2{
 
   font-family: $mainFont;
   color: white;
+
+  background-color: $white;
 }
 
 .photo-and-name{
@@ -79,7 +81,7 @@ h2{
 
 // about me
 .face-information{
-  padding: 10px 20px 10px 50px;
+  padding: 20px 20px 20px 50px;
 
   background-color: $blueLight;
 }
@@ -95,7 +97,7 @@ h2{
 
 // my skills
 .my-skills{
-  padding: 10px 20px 10px 50px;
+  padding: 20px 20px 20px 50px;
 
   color: black;
 
