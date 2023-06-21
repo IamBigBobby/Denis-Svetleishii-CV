@@ -67,4 +67,14 @@ h2 {
 code {
   white-space: pre-wrap; }
 
+.code-example {
+  max-height: 0px;
+  cursor: pointer;
+  border-bottom: 3px solid black;
+  overflow: hidden;
+  transition: 4s; }
+
+.code-example:hover {
+  max-height: 2000px; }
+
 /*# sourceMappingURL=style.css.map */

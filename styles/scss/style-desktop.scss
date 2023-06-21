@@ -109,4 +109,40 @@ h2{
 code{
   white-space: pre-wrap;
 }
+
+// code examples
+
+.code-example{
+  max-height: 0px;
+
+  cursor: pointer;
+
+  border-bottom: 3px solid black;
+
+  overflow: hidden;
+
+  transition: 4s;
+}
+
+.code-example:hover{
+  max-height: 2000px;
+}
+
+// .code-example-open{
+//   height: auto;
+// }
+
+// .name-example:before{
+//   position: absolute;
+//   bottom: -10px;
+//   content: " ";
+//   border-bottom: 1px solid black;
+//   // transform: scale(0,1);
+//   width: 100%;
+//   transition: transform $speedAnimation;
+// }
+
+// .name-example:hover:before{
+//   transform: scale(1,1);
+// }
 // end main content
