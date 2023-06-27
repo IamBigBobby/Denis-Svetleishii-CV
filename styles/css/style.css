@@ -77,4 +77,11 @@ code {
 .code-example:hover {
   max-height: 2000px; }
 
+.strengths {
+  padding: 20px 20px 20px 50px;
+  color: black; }
+
+.strengths-list li {
+  margin-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */

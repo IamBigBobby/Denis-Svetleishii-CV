@@ -9,6 +9,7 @@ h2{
 
   border-left: 10px solid $yellow;
 }
+
 // end general
 
 // header
@@ -145,4 +146,19 @@ code{
 // .name-example:hover:before{
 //   transform: scale(1,1);
 // }
+
+// strengths
+
+.strengths{
+  padding: 20px 20px 20px 50px;
+
+  color: black;
+}
+
+.strengths-list{
+  li{
+    margin-bottom: 10px;
+  }
+}
+
 // end main content
