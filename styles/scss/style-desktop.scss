@@ -165,4 +165,33 @@ code{
   }
 }
 
+
+// my-projects
+.my-projects{
+  padding: 20px 20px 20px 50px;
+
+  color: black;
+}
+
+.project-section{
+  max-height: 50px;
+
+  cursor: pointer;
+
+  border-bottom: 3px solid black;
+
+  overflow: hidden;
+
+  transition: 4s;
+}
+
+.project-section:hover{
+  max-height: 2000px;
+}
+
+.project-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 // end main content
