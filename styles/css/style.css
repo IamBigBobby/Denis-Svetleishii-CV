@@ -75,7 +75,7 @@ code {
   cursor: pointer;
   border-bottom: 3px solid black;
   overflow: hidden;
-  transition: 4s; }
+  transition: 1s; }
 
 .code-example:hover {
   max-height: 2000px; }
@@ -96,7 +96,7 @@ code {
   cursor: pointer;
   border-bottom: 3px solid black;
   overflow: hidden;
-  transition: 4s; }
+  transition: 1s; }
 
 .project-section:hover {
   max-height: 2000px; }
@@ -105,5 +105,29 @@ code {
   display: flex;
   flex-wrap: wrap;
   gap: 10px; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #5a5ac5;
+  color: #f1ebeb; }
+
+.git-hub a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #f1ebeb;
+  cursor: pointer;
+  transition: 1s; }
+.git-hub a:hover {
+  color: yellow; }
+.git-hub p {
+  padding-left: 10px; }
+
+.rs-logo {
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

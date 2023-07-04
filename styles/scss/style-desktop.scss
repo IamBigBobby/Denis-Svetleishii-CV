@@ -195,3 +195,42 @@ code{
   gap: 10px;
 }
 // end main content
+
+// footer
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 50px;
+  background-color: $blue;
+
+  color: $white;
+}
+
+.git-hub{
+
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $white;
+
+    cursor: pointer;
+
+    transition: 1s;
+  }
+
+  a:hover{
+    color: $yellow;
+  }
+
+  p{
+    padding-left: 10px;
+  }
+}
+
+.rs-logo{
+  cursor: pointer;
+}
