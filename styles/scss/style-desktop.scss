@@ -1,6 +1,9 @@
 @import 'variables';
 
 // general
+html{
+  scroll-behavior: smooth;
+}
 
 h2{
   padding-left: 10px;

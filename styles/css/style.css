@@ -7,6 +7,9 @@
 .navigation-list a:hover, .contact-link:hover, .git-hub a:hover {
   color: yellow; }
 
+html {
+  scroll-behavior: smooth; }
+
 h2 {
   padding-left: 10px;
   font-family: "Ubuntu", sans-serif;
