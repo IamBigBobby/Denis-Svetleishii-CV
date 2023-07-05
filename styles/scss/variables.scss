@@ -9,3 +9,14 @@ $mainFont: 'Ubuntu', sans-serif;
 
 // animations
 $speedAnimation: 1s;
+
+%links{
+  text-decoration: none;
+  color: $white;
+  cursor: pointer;
+  transition: 1s;
+}
+
+%links-hover{
+  color: $yellow
+}

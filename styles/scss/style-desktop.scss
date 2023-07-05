@@ -28,15 +28,13 @@ h2{
   list-style-type: none;
 
   a{
-    text-decoration: none;
-    color: $white;
     font-family: $mainFont;
 
-    transition: $speedAnimation;
+    @extend %links;
   }
 
   a:hover{
-    color: $yellow;
+    @extend %links-hover;
   }
 }
 // end header
@@ -58,6 +56,14 @@ h2{
   color: white;
 
   background-color: $white;
+}
+
+.contact-link{
+  @extend %links;
+}
+
+.contact-link:hover{
+  @extend %links-hover;
 }
 
 .photo-and-name{
@@ -214,16 +220,12 @@ code{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    color: $white;
 
-    cursor: pointer;
-
-    transition: 1s;
+    @extend %links;
   }
 
   a:hover{
-    color: $yellow;
+    @extend %links-hover;
   }
 
   p{
