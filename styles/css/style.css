@@ -105,6 +105,13 @@ code {
 .strengths-list li {
   margin-bottom: 10px; }
 
+.coding-skills {
+  padding-bottom: 50px;
+  color: black; }
+
+.coding-list li {
+  margin-bottom: 10px; }
+
 .my-projects {
   padding: 20px 20px 20px 50px;
   color: black; }
