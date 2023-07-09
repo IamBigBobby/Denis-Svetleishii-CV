@@ -16,6 +16,12 @@ h2{
 // end general
 
 // header
+.header{
+  position: fixed;
+  width: 100%;
+
+  z-index: 3;
+}
 .navigation{
   background-color: $blue;
 }
@@ -45,7 +51,7 @@ h2{
 // main content
 .main{
   margin: 0;
-  padding: 0;
+  padding: 50px 0px 0px 0px;
 }
 .wrapper{
   margin: 0 auto;
@@ -173,7 +179,8 @@ code{
 // strengths
 
 .strengths{
-  padding: 20px 20px 20px 50px;
+
+  padding-bottom: 50px;
 
   color: black;
 }
