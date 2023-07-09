@@ -15,6 +15,11 @@ h2 {
   font-family: "Ubuntu", sans-serif;
   border-left: 10px solid yellow; }
 
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 3; }
+
 .navigation {
   background-color: #5a5ac5; }
 
@@ -30,7 +35,7 @@ h2 {
 
 .main {
   margin: 0;
-  padding: 0; }
+  padding: 50px 0px 0px 0px; }
 
 .wrapper {
   margin: 0 auto;
