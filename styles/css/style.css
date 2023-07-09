@@ -112,6 +112,13 @@ code {
 .coding-list li {
   margin-bottom: 10px; }
 
+.language {
+  padding-bottom: 50px;
+  color: black; }
+
+.language-list li {
+  margin-bottom: 10px; }
+
 .my-projects {
   padding: 20px 20px 20px 50px;
   color: black; }
