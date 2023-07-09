@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/css/style.css">
+  <link rel="stylesheet" href="styles/css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <title>Denis Svetleishii Front-end developer CV</title>
+</head>
+<body>
+  <div id="message-block" class="hidden">
+    <div class="education-img"></div>
+  </div>
+  <header class="header">
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="#about-me">About me</a></li>
+        <li class="navigation-item"><a href="#">Skills</a></li>
+        <li class="navigation-item"><a href="#strengths">Strengths</a></li>
+        <li class="navigation-item"><a href="#code-examples">Code</a></li>
+        <li class="navigation-item"><a href="#my-projects">Projects</a></li>
+        <li class="navigation-item"><a href="#contact">Contact</a></li>
+        <li class="navigation-item"><a href="#education">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="wrapper">
+      <section class="face-information">
+        <div class="photo-and-name">
+          <img class="my-photo" src="assets/jpg/photo.jpg" width="400" height="400"  alt="it's me!">
+          <div class="main-information">
+            <h1>Denis Svetleishii</h1>
+            <p>Front-end developer</p>
+          </div>
+        </div>
+        <div id="contact" class="contact">
+          <h2>Contact</h2>
+          <ul class="contact-list">
+            <li class="contact-item"><a class="contact-link" href="https://t.me/Denis_Svetleishii">Telegramm</a></li>
+            <li class="contact-item"><a class="contact-link" href="https://discord.com/users/i_am_big_bobby">Discord</a></li>
+            <li class="contact-item"><a class="contact-link" href="mailto:denissvetleishii@outlook.com">Email</a></li>
+          </ul>
+        </div>
+        <div id="education" class="education">
+          <h2>Education and courses</h2>
+          <div class="education-img"></div>
+        </div>
+      </section>
+      <section class="my-skills">
+        <div id="about-me" class="about-me">
+          <h2>About me</h2>
+          <p>Hi, my name is Denis.
+  
+            I'm 29 years old. I from Russia, was born in Novosibirsk. <br>
+            <br>
+            I would like to tell a little story about me. <br>
+            <br>
+            About one and half year ago, my wife foud out about rs scholl in twitter. And she offered me try myself in stage0. It was at the end of 2021. I faild. I was tried in stage1, but a couldn't resist. <br>
+            <br>
+            But I didn't give up and continued to study. <br>
+            <br>
+            When the war began, me, my wife and our cat left for Georgia. Now we live in Batumi. <br>
+            <br>
+            I tried again studied on Stage0 at last summer, and I finished it. I was really happy. Unfortunately, I couldn't finish stag1 one agane. <br>
+            <br>
+            But as you see, I have a goal and reach it. <br>
+            <br>
+            About my education. I studied at the Siberian State University as an engineer of bridges and tunnels construction. But I didn't complete it. Because I at the first student practice, I was disappointed in my choice. <br>
+            <br>
+            I used to work as an engineer in a construction laboratory. The work consisted in laboratory control of building materials. I have technical experience that always helps me. And now for almost 10 years I'm working as a swimming coach for preschoolers and children with special needs. This job gave me great inspiration (thanks to the children) to learn new things. I think that the combination of my past experience helps me to make a good products and be a good employee.
+          </p>
+        </div>
+        <section id="strengths" class="strengths">
+          <h2>Key strengths</h2>
+          <ul class="strengths-list">
+            <li>Hardworking</li>
+            <li>Responsible</li>
+            <li>Sociable</li>
+            <li>Quick learner</li>
+            <li>Goal-oriented</li>
+            <li>Conscientious</li>
+          </ul>
+        </section>
+        <section id="skills" class="coding-skills">
+          <h2>Skills</h2>
+          <ul class="coding-list">
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SASS</li>
+            <li>GIT</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>NodeJS (basic)</li>
+          </ul>
+        </section>
+        <section id="language" class="language">
+          <h2>Language</h2>
+          <ul class="language-list">
+            <li>Russian (native)</li>
+            <li>English (B1)</li>
+          </ul>
+        </section>
+        <div id="code-examples" class="code-examples">
+          <h2>Code examples</h2>
+          <div class="code-example">
+            <h3 class="name-example">Morse decoder</h3>
+            <pre>
+              <code>
+                const MORSE_TABLE = {
+                  '.-':     'a',
+                  '-...':   'b',
+                  '-.-.':   'c',
+                  '-..':    'd',
+                  '.':      'e',
+                  '..-.':   'f',
+                  '--.':    'g',
+                  '....':   'h',
+                  '..':     'i',
+                  '.---':   'j',
+                  '-.-':    'k',
+                  '.-..':   'l',
+                  '--':     'm',
+                  '-.':     'n',
+                  '---':    'o',
+                  '.--.':   'p',
+                  '--.-':   'q',
+                  '.-.':    'r',
+                  '...':    's',
+                  '-':      't',
+                  '..-':    'u',
+                  '...-':   'v',
+                  '.--':    'w',
+                  '-..-':   'x',
+                  '-.--':   'y',
+                  '--..':   'z',
+                  '.----':  '1',
+                  '..---':  '2',
+                  '...--':  '3',
+                  '....-':  '4',
+                  '.....':  '5',
+                  '-....':  '6',
+                  '--...':  '7',
+                  '---..':  '8',
+                  '----.':  '9',
+                  '-----':  '0',
+              };
+              
+              function decode(expr) {
+                  let result = '';
+                  
+                  const arrExpr = [];
+                  for (let i = 0; i &lt; expr.length; i+=10){
+                      arrExpr.push(expr.slice(i, i + 10));
+                  }
+                  
+                  const arrEachElement = [];
+                  for (let element of arrExpr){
+                      if (element == '**********'){
+                          arrEachElement.push(' ');
+                      }
+                      else{
+                          arrEachElement.push(element);
+                      }
+                  }
+              
+                  const arrEachElementMorse = [];
+                  for (let element of arrEachElement){
+                      if (element == ' '){
+                          arrEachElementMorse.push(' ');
+                      }
+                      else{
+                          element = element.replace(/10/gi, '.');
+                          element = element.replace(/11/gi, '-');
+                          element = element.replace(/00/gi, '')
+                          arrEachElementMorse.push(element);
+                      }
+                  }
+              
+                  const finalStringResult = [];
+                  for(let element of arrEachElementMorse){
+                      for (key in MORSE_TABLE){
+                          if (element == key){
+                              finalStringResult.push(MORSE_TABLE[key]);
+                          }
+                          else if (element == ' '){
+                              finalStringResult.push(' ');
+                              break;
+                          }
+                      }
+                  }
+                  result = finalStringResult.join('');
+                  return result;
+              }
+              </code>
+            </pre>
+          </div>
+          <div class="code-example">
+            <h3 class="name-example">Towel sort</h3>
+            <pre>
+              <code>
+                function towelSort (matrix) {
+                  let result = '';
+                  if(matrix === undefined || matrix.length === 0){
+                    return result = [];
+                  }
+                  else{
+                    const reverseMatrix = [];
+                    matrix.forEach(function(item, index, array) {
+                        if (index === 0){
+                          reverseMatrix.push(item)
+                        }
+                        else if (index !== 2){
+                          reverseMatrix.push(item.reverse())
+                        }
+                        else{
+                          reverseMatrix.push(item)
+                        }
+                    })
+                    const reverseMatrixString = reverseMatrix.join();
+                    const arrReverseMatrixString = reverseMatrixString.split(',')
+                    const arrFinal = [];
+                      for(let element of arrReverseMatrixString){
+                        if (element !== ','){
+                          arrFinal.push(Number(element))
+                        }
+                      }
+                    result = arrFinal;
+                    return result;
+                  }
+                }
+              </code>
+            </pre>
+          </div>
+          <div class="code-example">
+            <h3 class="name-example">Human readable number</h3>
+            <pre>
+              <code>
+                function toReadable (number) {
+                  let result = '';
+                  let stringNumber = number.toString();
+                  let ones = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+              
+                  let tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+              
+                  if (number &lt;= 20){
+                      result = ones[number];
+                  }
+                  else if (number > 20 && number &lt; 100 && stringNumber[1] != 0){
+                      result = `${tens[stringNumber[0]]} ${ones[stringNumber[1]]}`;
+                  }
+                  else if (number > 20 && number &lt; 100 && stringNumber[1] == 0){
+                      result = `${tens[stringNumber[0]]}`;
+                  }
+                  else if (number >= 100){
+                      if(stringNumber[1] == 0 && stringNumber[2] != 0){
+                          result = `${ones[stringNumber[0]]} hundred ${ones[stringNumber[2]]}`;
+                      }
+                      else if(stringNumber[1] >= 1 && stringNumber[1] &lt; 2){
+                          result = `${ones[stringNumber[0]]} hundred ${ones[stringNumber.slice(1)]}`;
+                      }
+                      else if(stringNumber[1] >= 2 && stringNumber[2] != 0){
+                          result = `${ones[stringNumber[0]]} hundred ${tens[stringNumber[1]]} ${ones[stringNumber[2]]}`
+                      }
+                      else if (stringNumber[0] >= 1 && stringNumber[1] == 0 && stringNumber[2] == 0){
+                          result = `${ones[stringNumber[0]]} hundred`;
+                      }
+                      else if(stringNumber[1] > 0 && stringNumber[2] == 0){
+                          result = `${ones[stringNumber[0]]} hundred ${tens[stringNumber[1]]}`;
+                      }
+                  }
+                  return result;
+              }
+              </code>
+            </pre>
+          </div>
+          <p>If you want to see more examples of my code, check up my <a href="https://github.com/IamBigBobby/CodeWars">CodeWars github repository</a> </p>
+        </div>
+      </section>
+      <section id="my-projects" class="my-projects">
+        <h2>My Projects</h2>
+        <div class="project-section">
+          <h3>RSSchool Stage0 Summer 2022</h3>
+          <div class="project-wrapper">
+            <div class="project">
+              <a href="https://resonant-basbousa-320484.netlify.app/">
+                <img src="assets/png/elder.png" width="350" height="200" alt="elder">
+              </a>
+              <p>Eldritch-codejam</p>
+            </div>
+            <div class="project">
+              <a href="https://iambigbobby.github.io/RSSchool-stage0-2022-summer/travel/">
+                <img src="assets/png/travel.png" width="350" height="200" alt="travel">
+              </a>
+              <p>Travel</p>
+            </div>
+            <div class="project">
+              <a href="https://amazing-kitsune-cea7f5.netlify.app/">
+                <img src="assets/png/momentum.png" width="350" height="200" alt="momentum">
+              </a>
+              <p>Momentum</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-section">
+          <h3>RSSchool Stage1 Spring 2023</h3>
+          <div class="project-wrapper">
+            <div class="project">
+              <a href="https://iambigbobby.github.io/RSSchool-stage1-2023-spring/shelter/">
+                <img src="assets/png/shelter.png" width="350" height="200" alt="Shelter">
+              </a>
+              <p>Shelter</p>
+            </div>
+            <div class="project">
+              <a href="https://iambigbobby.github.io/virtual-keyboard/">
+                <img src="assets/png/keyboard.png" width="350" height="200" alt="keyboard">
+              </a>
+              <p>Virtual keyboard</p>
+            </div>
+            <div class="project">
+              <a href="https://iambigbobby.github.io/RSSchool-stage1-2023-spring/minesweeper/">
+                <img src="assets/png/minesweeper.png" width="350" height="200" alt="minesweeper">
+              </a>
+              <p>Minesweeper</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-section">
+          <h3>Self Projects</h3>
+          <p>In developing</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="git-hub">
+      <a href="https://github.com/IamBigBobby">
+        <img src="assets/png/github.png" width="30" height="30" alt="github">
+      <p>Denis Svetleishii</p>
+      </a>
+    </div>
+    <div class="year"> &copy;2023</div>
+    <div class="rs-logo">
+      <a href="https://rs.school/js/">
+        <img src="assets/svg/rs_school_js.svg" width="80" alt="RSSchool">
+      </a>
+    </div>
+  </footer>
+  <script type="module" src="scripts/script.js"></script>
+</body>
+</html>

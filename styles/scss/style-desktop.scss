@@ -1,0 +1,287 @@
+@import 'variables';
+
+// general
+html{
+  scroll-behavior: smooth;
+}
+
+h2{
+  padding-left: 10px;
+
+  font-family: $mainFont;
+
+  border-left: 10px solid $yellow;
+}
+
+// end general
+
+// header
+.header{
+  position: fixed;
+  width: 100%;
+
+  z-index: 3;
+}
+.navigation{
+  background-color: $blue;
+}
+
+.navigation-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  margin: 0px;
+  padding: 20px;
+
+  list-style-type: none;
+
+  a{
+    font-family: $mainFont;
+
+    @extend %links;
+  }
+
+  a:hover{
+    @extend %links-hover;
+  }
+}
+// end header
+
+// main content
+.main{
+  margin: 0;
+  padding: 50px 0px 0px 0px;
+}
+.wrapper{
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1080px;
+
+  font-family: $mainFont;
+  color: white;
+
+  background-color: $white;
+}
+
+.contact-link{
+  @extend %links;
+}
+
+.contact-link:hover{
+  @extend %links-hover;
+}
+
+.photo-and-name{
+  display: flex;
+  flex-direction: row;
+}
+
+.main-information{
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 40px;
+}
+
+.contact-item{
+  margin-bottom: 10px;
+}
+
+// education
+.education-img{
+  position: relative;
+
+  width: 400px;
+  height: 250px;
+
+  background-image: url('/assets/jpg/stage0.jpg');
+  background-size: cover;
+
+  cursor: pointer;
+
+  transition: 1s;
+}
+
+.education-img:hover{
+  transform: scale(1.05);
+}
+
+// about me
+.face-information{
+  padding: 20px 20px 20px 50px;
+
+  background-color: $blueLight;
+}
+
+.my-photo{
+  // margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+
+  display: block;
+
+  border-radius: 50%;
+}
+
+// my skills
+.my-skills{
+  padding: 20px 20px 20px 50px;
+
+  color: black;
+
+  div{
+    padding-bottom: 50px;
+  }
+}
+
+code{
+  white-space: pre-wrap;
+}
+
+// code examples
+
+.code-example{
+  max-height: 0px;
+
+  cursor: pointer;
+
+  border-bottom: 3px solid black;
+
+  overflow: hidden;
+
+  transition: 1s;
+}
+
+.code-example:hover{
+  max-height: 2000px;
+}
+
+// .code-example-open{
+//   height: auto;
+// }
+
+// .name-example:before{
+//   position: absolute;
+//   bottom: -10px;
+//   content: " ";
+//   border-bottom: 1px solid black;
+//   // transform: scale(0,1);
+//   width: 100%;
+//   transition: transform $speedAnimation;
+// }
+
+// .name-example:hover:before{
+//   transform: scale(1,1);
+// }
+
+// strengths
+
+.strengths{
+
+  padding-bottom: 50px;
+
+  color: black;
+}
+
+.strengths-list{
+  li{
+    margin-bottom: 10px;
+  }
+}
+
+// coding-skills
+
+.coding-skills{
+
+  padding-bottom: 50px;
+
+  color: black;
+}
+
+.coding-list{
+  li{
+    margin-bottom: 10px;
+  }
+}
+
+// languages
+
+.language{
+
+  padding-bottom: 50px;
+
+  color: black;
+}
+
+.language-list{
+  li{
+    margin-bottom: 10px;
+  }
+}
+
+// my-projects
+.my-projects{
+  padding: 20px 20px 20px 50px;
+
+  color: black;
+}
+
+.project-section{
+  max-height: 50px;
+
+  cursor: pointer;
+
+  border-bottom: 3px solid black;
+
+  overflow: hidden;
+
+  transition: 1s;
+}
+
+.project-section:hover{
+  max-height: 2000px;
+}
+
+.project-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+// end main content
+
+// footer
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 50px;
+  background-color: $blue;
+
+  color: $white;
+}
+
+.git-hub{
+
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @extend %links;
+  }
+
+  a:hover{
+    @extend %links-hover;
+  }
+
+  p{
+    padding-left: 10px;
+  }
+}
+
+.rs-logo{
+  cursor: pointer;
+}
