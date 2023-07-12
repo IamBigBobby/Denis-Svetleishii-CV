@@ -11,5 +11,22 @@
       padding-bottom: 0px;
       padding-left: 0px;
     }
+  } 
+  .header{
+    width: 400px;
+    right: 0;
+  }
+  .navigation-list{
+    flex-direction: column;
+    gap: 50px;
+
+    .navigation-item{
+      text-align: center;
+
+      font-size: 30px;
+    }
+  }
+  .main{
+    padding-top: 0px;
   }
 }
