@@ -34,6 +34,10 @@
       background-color: $white;
     }
   }
+
+  .burger-icon-rotate{
+    transform: rotate(90deg);
+  }
   #nav-block{
     position: fixed;
   
@@ -62,7 +66,16 @@
     }
   } 
   .header{
+    position: fixed;
+    
     width: 400px;
+
+    left: 0px;
+
+    transition: 1s;
+  }
+  .header-hidden{
+    left: -400px;
   }
   .navigation-list{
     flex-direction: column;
