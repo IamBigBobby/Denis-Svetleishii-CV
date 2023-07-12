@@ -2,6 +2,38 @@
 @import 'style-desktop';
 
 @media (max-width: 768px){
+  .burger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: fixed;
+
+    right: 20px;
+    top: 20px;
+
+    width: 100px;
+    height: 100px;
+
+    background-color: $blue;
+
+    border-radius: 50%;
+
+    z-index: 3;
+
+    transition: 1s;
+
+    span{
+      display: block;
+
+      width: 50px;
+      height: 4px;
+
+      background-color: $white;
+    }
+  }
   #nav-block{
     position: fixed;
   
@@ -16,9 +48,9 @@
     z-index: 2;
   }
 
-  // #nav-block.hidden{
-  //   display: none;
-  // }
+  #nav-block.hidden{
+    display: none;
+  }
   .photo-and-name{
     flex-direction: column;
     align-items: center;
@@ -31,7 +63,6 @@
   } 
   .header{
     width: 400px;
-    right: 0;
   }
   .navigation-list{
     flex-direction: column;

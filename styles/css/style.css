@@ -355,6 +355,27 @@ code {
   cursor: pointer; }
 
 @media (max-width: 768px) {
+  .burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #5a5ac5;
+    border-radius: 50%;
+    z-index: 3;
+    transition: 1s; }
+    .burger-icon span {
+      display: block;
+      width: 50px;
+      height: 4px;
+      background-color: #f1ebeb; }
+
   #nav-block {
     position: fixed;
     width: 100%;
@@ -363,6 +384,9 @@ code {
     left: 0;
     background: rgba(0, 0, 0, 0.699);
     z-index: 2; }
+
+  #nav-block.hidden {
+    display: none; }
 
   .photo-and-name {
     flex-direction: column;
@@ -373,8 +397,7 @@ code {
       padding-left: 0px; }
 
   .header {
-    width: 400px;
-    right: 0; }
+    width: 400px; }
 
   .navigation-list {
     flex-direction: column;
