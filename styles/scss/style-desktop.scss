@@ -116,6 +116,10 @@ h2{
   background-color: $blueLight;
 }
 
+.about-me p{
+  line-height: 30px;
+}
+
 .my-photo{
   // margin: 0 auto;
   padding: 20px 0px 20px 0px;
@@ -123,6 +127,11 @@ h2{
   display: block;
 
   border-radius: 50%;
+}
+
+// experience 
+.experience-list li{
+  padding-bottom: 10px;
 }
 
 // my skills

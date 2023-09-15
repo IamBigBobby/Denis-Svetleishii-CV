@@ -74,10 +74,16 @@ h2 {
   padding: 20px 20px 20px 50px;
   background-color: #7171b3; }
 
+.about-me p {
+  line-height: 30px; }
+
 .my-photo {
   padding: 20px 0px 20px 0px;
   display: block;
   border-radius: 50%; }
+
+.experience-list li {
+  padding-bottom: 10px; }
 
 .my-skills {
   padding: 20px 20px 20px 50px;
@@ -272,10 +278,16 @@ h2 {
   padding: 20px 20px 20px 50px;
   background-color: #7171b3; }
 
+.about-me p {
+  line-height: 30px; }
+
 .my-photo {
   padding: 20px 0px 20px 0px;
   display: block;
   border-radius: 50%; }
+
+.experience-list li {
+  padding-bottom: 10px; }
 
 .my-skills {
   padding: 20px 20px 20px 50px;
